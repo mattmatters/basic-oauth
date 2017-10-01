@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dancing with Doggos</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/picnic/6.4.0/picnic.min.css">
+        <style>
+         .center {
+             text-align: center;
+         }
+         .image {
+             border-radius: 50%;
+             width: 120px;
+             height: 120px;
+             margin: 0;
+             -webkit-animation:spin 4s linear infinite;
+             -moz-animation:spin 4s linear infinite;
+             animation:spin 4s linear infinite;
+         }
+         @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+         @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+         @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+        </style>
+    </head>
+    <body>
+        <div class="center">
+            <img class="image" src="http://oi42.tinypic.com/33dfo5e.jpg">
+            <h1>Pupper Lovin'</h1>
+            <p>
+                Our <i>top of the line, web-scale, cloud-based, distributed computing platform</i> will let
+                you reaffirm your love for puppies.
+            </p>
+            <p><a href="/auth">Authenticate!</a></p>
+        </div>
+    </body>
+</html>
