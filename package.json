@@ -2,14 +2,20 @@
   "name": "basicoauth",
   "version": "1.0.0",
   "description": "Sample web app for OAuth 2 with Google.",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Matt Lewis",
-  "license": "ISC",
+  "license": "MIT",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/mattmatters/basic-oauth.git"
+  },
   "dependencies": {
-    "express": "^4.16.1"
+    "express": "^4.16.1",
+    "express-handlebars": "^3.0.0",
+    "googleapis": "^22.2.0"
   }
 }
