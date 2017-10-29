@@ -2,7 +2,12 @@
 
 This is an example project for a blog post I made. It prints the access tokens it currently has in a web page.
 
-This is not a production-ready web app, simply a demonstration of obtaining tokens with the OAuth2 Framework.
+These can be used to follow along with this [blog post](http://mattmatters.io/Oauth2-demystified/).
+
+This is **not** a production-ready web app, simply a demonstration of obtaining tokens with the OAuth2 Framework.
+
+However if someone is looking for a quick base to bootstrap a project, one could feasibly use this and replace the
+access token with a database.
 
 ## Running
 There are currently two ways of running the application.
