@@ -10,3 +10,14 @@
         <button class="btn">Authorize Account</button>
     </a>
 </section>
+{{#if accessTokens}}
+<section>
+    <h2>Access Tokens</h2>
+    <p><i>Here are tokens to folks that have submitted to the puppers</i></p>
+    <ul>
+        {{#each accessTokens}}
+        <li>{{this}}</li>
+        {{/each}}
+    </ul>
+</section>
+{{/if}}
