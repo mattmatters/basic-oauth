@@ -51,6 +51,8 @@ app.get('/oauthcallback', (req, res) => (
   })
 ));
 
-app.listen(3000, () => (
+const listener = app.listen(3000, () => (
   console.log('The puppies are listening on port 3000!')
 ));
+
+module.exports = listener;
