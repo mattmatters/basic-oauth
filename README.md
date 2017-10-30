@@ -1,4 +1,4 @@
-# Basic OAuth2 Flow
+# Basic OAuth2 Flow [![Building](https://travis-ci.org/mattmatters/basic-oauth.svg?branch=master)](https://travis-ci.org/mattmatters/basic-oauth)
 
 This is an example project for a blog post I made. It prints the access tokens it currently has in a web page.
 
