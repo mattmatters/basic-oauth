@@ -1,6 +1,7 @@
 const express = require('express');
 const path = require('path');
 const google = require('googleapis');
+const process = require('process');
 const exphbs = require('express-handlebars');
 const app = express();
 const OAuth2 = google.auth.OAuth2;
@@ -51,7 +52,7 @@ app.get('/oauthcallback', (req, res) => (
   })
 ));
 
-const listener = app.listen(3000, () => (
+const listener = app.listen(process.env.PORT || 3000, () => (
   console.log('The puppies are listening on port 3000!')
 ));
 
